@@ -1,2 +1,2 @@
-该项目全称为：fraudulent taxi driver detection
+fraudulent taxi driver detection
 
