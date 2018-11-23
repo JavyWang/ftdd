@@ -192,9 +192,6 @@ def find_trajectory(input_path, output_path):
     for group in cab_trace_group:
         # take out the slice of the traj_id trajectory
         # print(group)
-
-
-
         per_traj_df = group[1]
         s_node_df = per_traj_df.loc[(per_traj_df['status'].isin(['1']))]
         e_node_df = per_traj_df.loc[(per_traj_df['status'].isin(['2']))]

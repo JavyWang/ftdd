@@ -5,6 +5,7 @@
 from ftdd.utils import *
 # from ftdd.models import *
 from ftdd.fdfds2011 import *
+from ftdd.new import *
 
 
 def main():
@@ -23,10 +24,13 @@ def main():
         'data6': 'D:\MyWorks\Researches\TaxiFraudDetection\codes\\ftdd\\ftdd\data\\cabspotting6\\',
         'data7': 'D:\MyWorks\Researches\TaxiFraudDetection\codes\\ftdd\\ftdd\data\\cabspotting7\\',
         'data9': 'D:\MyWorks\Researches\TaxiFraudDetection\codes\\ftdd\\ftdd\data\\cabspotting9\\',
-        'data10': '/Users/javy/PycharmProjects/ftdd/ftdd/data/cabspotting10/'
+        'data10': '/Users/javy/PycharmProjects/ftdd/ftdd/data/cabspotting10/',
+        'data11': '/Users/javy/PycharmProjects/ftdd/ftdd/data/cabspotting10/new/'
+
     }
+    caculate(data_path['data11'], data_path['data11'])
     # get_interesting_sites(data_path['data10'], data_path['data10'], 100)
-    get_nodes_label(data_path['data10'], data_path['data10'], 8)
+    # get_nodes_label(data_path['data10'], data_path['data10'], 8)
     # get_node_pair(data_path['data10'], data_path['data10'])
     # find_trajectory(data_path['data10'], data_path['data10'])  # this step is the most consumption
     # find_fraud_trajectory(data_path['data10'], data_path['data10'])
