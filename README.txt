@@ -1,7 +1,1 @@
-fraudulent taxi driver detection
-<<<<<<< HEAD
-
-
-=======
->>>>>>> origin/master
-
+# fraudulent taxi driver detection
